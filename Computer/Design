@@ -1,0 +1,8 @@
+[Decorator]:
+composition is better than inherent.For Example, 
+Strategy mode contain a concrete sub-class which is enable to change stategy while runing.
+
+In Decorator Mode, we use additional class called "Decorator".It is derived from base class of concrete operation.
+It contain a pointer to base class.
+Contructive function accept a sub-class pointer, such as "Decorator(sub-class*)",and save it.
+Operation fuction is inherented from base class which has same name to sub-class.This function first do some other job(decorate job), than utilize sub-class pointer to call origin fuction.
