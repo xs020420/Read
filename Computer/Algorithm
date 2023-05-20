@@ -1,0 +1,14 @@
+[recursion]
+The truth of recursion：Different thinking mode to solve a problem.You can never use recursion, but should understand it while it is used in current code.
+Problem 1：How many hair a monkey has ？ One hair and the remain
+Problem 2: How to sort a vector filled with nums ? Split it into two parts。And if aked how to sort the two parts, read the answer again.
+Problem 3: How old are you? One Year older than the last.
+
+See, a recursion is thinking reversed.
+Sometimes, recursion is poor efficiency, for example,while being used to solve problem.Cause it need O(n) heap space.
+
+While using recursive,do not try to jump into each brach cause we can not stack all the problem and analyize them.Just try to believe it can do it.
+
+Problem:leetCode PathSum
+To solve the problem, ...
+

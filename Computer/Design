@@ -6,3 +6,7 @@ In Decorator Mode, we use additional class called "Decorator".It is derived from
 It contain a pointer to base class.
 Contructive function accept a sub-class pointer, such as "Decorator(sub-class*)",and save it.
 Operation fuction is inherented from base class which has same name to sub-class.This function first do some other job(decorate job), than utilize sub-class pointer to call origin fuction.
+
+[Visitor]
+Visitor Mode enable an action adding new function without modifying data class。It can access all necessary data outside the data class.
+Visitor Mode is not often used
