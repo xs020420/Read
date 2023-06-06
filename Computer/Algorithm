@@ -10,5 +10,14 @@ Sometimes, recursion is poor efficiency, for example,while being used to solve p
 While using recursive,do not try to jump into each brach cause we can not stack all the problem and analyize them.Just try to believe it can do it.
 
 Problem:leetCode PathSum
-To solve the problem, ...
+To solve the problem, the most important is to get the point about how to convert the big problem to sub-problem.
+In this case, we try to get the num of sub-branches whose total sum is given num.It means that we use left and right branch to get the root .The answer of 
 
+
+[Binary tree]
+"Binary tree" is the easiest data structure to learn recursion.
+We should mater three mode to tranverse a normal binary tree.They are pre, middle and post.Each Tranversion order shoud be clearly in our mind.
+
+Additionally, "binary search tree" is also important.We should know that the middle tranversion is the  samll-to-big order of a  binary search tree.
+
+Further more, to solve the degenerate problem(if push in order, degenerate to a list) of a binary search tree, we introduce a "AVL Tree".The only diff between  AVL tree and  binary search tree is the former balance itself to keep all balance-element of nodes <= 1.We should master the 4 ways of how to balance when a AVL tree is pushed or deleted an element.
